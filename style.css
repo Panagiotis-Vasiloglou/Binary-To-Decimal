@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: rgb(65, 150, 122);
+    color: white;
+}
+
+.container {
+    margin: 15rem auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 3rem;
+
+    display: none;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    margin-top: 2rem;
+}
